@@ -13,4 +13,6 @@ def fun(num):
     print(string)
 
 
-fun(input())
+if __name__ == '__main__':
+    fun(input())
+
