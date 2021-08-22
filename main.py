@@ -11,6 +11,11 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+<<<<<<< HEAD
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+=======
+    pass
+
+>>>>>>> 901062c0e86439102db4363022848765436ccb22
