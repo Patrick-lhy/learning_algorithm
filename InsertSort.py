@@ -1,6 +1,11 @@
 
 
 def insert_sort(numbers):
+    """
+    插入排序
+    :param numbers:
+    :return:
+    """
     size = len(numbers)
 
     for i in range(size):

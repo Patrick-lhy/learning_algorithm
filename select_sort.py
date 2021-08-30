@@ -11,9 +11,7 @@ def Select_Sort(numbers):
             if numbers[j] < numbers[k]:
                 k = j
             j -= 1
-        temp = numbers[i]
-        numbers[i] = numbers[k]
-        numbers[k] = temp
+        numbers[i], numbers[k] = numbers[k], numbers[i]
 
     print(numbers)
 
